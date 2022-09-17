@@ -1,0 +1,25 @@
+npm init keeps track of all files in the application
+express allows us to quickly creates a server in node
+cors allows differernt domain applications to interact
+- ex: serverr in localhost 5000 and react app in 3000
+
+To get data from the client side, its from the req.body object
+
+DB
+- Schema to be specific on what is being put in DB
+- Create separate database.sql to make it more visually appealing when writing commands.
+\l = lists all databases
+\dt = lists tables
+\c database = go into a database
+- db.js connects app to the database
+- VALUES($1) - variable that will specify description ($1 is a placeholder), which is speicified in the second argument array.
+- RETURNING * - used whenevever updating/inserting/deleting data
+- WHERE to be specific on what data to GET (id for example)
+
+js
+- Async makes asynchronous requests easy
+    - anytime getting data, it takes time. Async awaits function to complete before it continues.
+
+React
+- What's a Fragment?
+- useEffect will help us make a fetch request to API every time a component is rendered
